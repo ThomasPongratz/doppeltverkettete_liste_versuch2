@@ -25,5 +25,5 @@ void Fraesung::output(std::ostream& os) const {
     os << " und Endpunkt: ("
        << getEndX() << ", "
        << getEndY() << "), Durchmesser: "
-       << getDiameter();// << std::endl;
+       << getDiameter();
 }
